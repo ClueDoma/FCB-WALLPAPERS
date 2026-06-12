@@ -18,7 +18,7 @@ opacity:.66
 }
 }
 .info__2debe::after {
-content:"Visca Barca" " " "7.0.1";
+content:"Visca Barca" " " "1899";
 color:var(--text-muted);
 font-size:12px;
 line-height:1.3333333333;
@@ -36,7 +36,7 @@ order:2;
 filter:drop-shadow(0 0 5px var(--hsl-main-color))
 }
 :is(.theme-dark,.theme-light):not(.platform-osx) .leading_c38106::after {
-content:"7.0.1";
+content:"1899";
 position:static;
 margin-top:-5px;
 margin-left:5px;
@@ -1849,20 +1849,16 @@ color:var(--interactive-text-active)
 .item_c1e9c4.focused_c1e9c4 .label_c1e9c4 {
 color:var(--interactive-text-active)
 }
-.status_a423bd[style="background-color: rgb(132, 133, 141);
-"] {
+.status_a423bd[style="background-color: rgb(132, 133, 141);"] {
 background-color:var(--hsl-offline-color) !important
 }
-.status_a423bd[style="background-color: rgb(69, 163, 102);
-"] {
+.status_a423bd[style="background-color: rgb(69, 163, 102);"] {
 background-color:var(--hsl-online-color) !important
 }
-.status_a423bd[style="background-color: rgb(255, 192, 78);
-"] {
+.status_a423bd[style="background-color: rgb(255, 192, 78"] {
 background-color:var(--hsl-idle-color) !important
 }
-.status_a423bd[style="background-color: rgb(218, 62, 68);
-"] {
+.status_a423bd[style="background-color: rgb(218, 62, 68);"] {
 background-color:var(--hsl-dnd-color) !important
 }
 .focused_c1e9c4#set-status-submenu-online {
